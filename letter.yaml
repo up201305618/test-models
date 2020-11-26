@@ -1,0 +1,23 @@
+--- 
+Letter:
+  allOf:
+    -
+      $ref: "https://fiware.github.io/tutorials.NGSI-LD/models/ngsi-ld.yaml#/Common"
+  description: |
+      Piece of paper with some information that is sent from a person to another
+      
+  properties:
+    from:
+      description: |
+          Person that sends the letter
+      type: string
+      x-ngsi: 
+        model: "https://schema.org/Person"
+        type: Property
+    to: 
+      description: |
+          Person that should receive the letter
+      type: string
+      x-ngsi: 
+        model: "https://schema.org/Person"
+        type: Property
