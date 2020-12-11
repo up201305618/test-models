@@ -4,8 +4,7 @@ Letter:
     -
       $ref: "https://fiware.github.io/tutorials.NGSI-LD/models/ngsi-ld.yaml#/Common"
   description: |
-      Piece of paper with some information that is sent from a person to another
-      
+      Piece of paper with some information that is sent from a person to another      
   properties:
     from:
       description: |
